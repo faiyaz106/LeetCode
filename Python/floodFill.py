@@ -1,3 +1,7 @@
+# Time Complexity: O(n)  Here n=sr*sc
+# Space Complexity: O(1)
+# Question Link: https://leetcode.com/problems/flood-fill/
+
 class Solution(object):
     def floodFill(self, image, sr, sc, color):
         """
