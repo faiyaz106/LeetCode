@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select d.name as Department, sq.name as Employee, sq.salary as Salary from (select *,rank() over(partition by departmentId order by salary desc) as rn from Employee) as sq join Department as d on d.id=sq.departmentId where sq.rn=1;
