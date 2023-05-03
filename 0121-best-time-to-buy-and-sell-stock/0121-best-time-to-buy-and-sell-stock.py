@@ -16,7 +16,4 @@ class Solution(object):
                 B_i=S_i
             S_i=S_i+1
             
-    
-
-
         return max
