@@ -4,7 +4,7 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        min_=min(prices)
+        #min_=min(prices)
         max=0
         B_i=0
         S_i=1
