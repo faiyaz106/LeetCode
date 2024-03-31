@@ -16,8 +16,6 @@ class Solution:
                 w2_count[j]=1 
         if w1_count.keys()!=w2_count.keys():
             return False
-        w1=list(w1_count.values())
-        w2=list(w2_count.values())
-        if sorted(w1)==sorted(w2): 
+        if sorted(list(w2_count.values()))==sorted(list(w1_count.values())):
             return True
         return False
