@@ -5,7 +5,6 @@ class Solution(object):
         :type word2: str
         :rtype: str
         """
-        signal=True
         output=""
         for i,j in zip(word1,word2):
             output+=i+j
